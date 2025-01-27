@@ -16,13 +16,12 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
     children,
-}: Readonly<{
-    children: React.ReactNode;
-}>) {
+}: {
+    children: React.ReactNode
+}) {
     return (
         <html lang="en">
-            <body
-                className={`${inter.variable} font-sans antialiased bg-neutral-950 text-white pb-[10000px]`}>
+            <body suppressHydrationWarning={true} className={`${inter.variable} font-sans antialiased bg-neutral-950 text-white pb-[10000px]`}>
                 {children}
             </body>
         </html>
