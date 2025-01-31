@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function Cards({ images, name, url, width, height }: { images: string; name: string; url: string; width: number; height: number; }) {
+export default function Cards({ images, name, width, height }: { images: string; name: string; url: string; width: number; height: number; }) {
     return (
         <div className="border  border-white/15 rounded-3xl p-4">
             <div className="flex justify-center rounded-3xl">
