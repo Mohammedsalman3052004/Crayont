@@ -35,7 +35,7 @@ export default function Faqs() {
                 <div className="flex justify-center">
                     <Tag name="faqs" />
                 </div>
-                <h2 className="text-6xl md:text-7xl lg:text-7xl p-4 font-medium lg:max-w-2xl text-center mt-2 max-w-xl mx-auto">Qustions? We've got <span className="text-lime-400">answers</span> </h2>
+                <h2 className="text-6xl md:text-7xl lg:text-7xl p-4 font-medium lg:max-w-2xl text-center mt-2 max-w-xl mx-auto">Qustions? We&apos;ve got <span className="text-lime-400">answers</span> </h2>
                 <div className="flex flex-col gap-6 mt-12 max-w-xl mx-auto">
                     {faqs.map((faq, faqIndex ) => (
                         <div key={faq.question} className="bg-neutral-900 rounded-2xl border border-white/10 p-6 ">
