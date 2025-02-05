@@ -1,7 +1,7 @@
 import Cards from "@/components/Cards";
 import Tag from "@/components/Tag";
-import card from "../cards.json";
-
+import card from "../json/cards.json";
+  
 export default function Features() {
     return (
         <section className="py-28 lg:py-12">
