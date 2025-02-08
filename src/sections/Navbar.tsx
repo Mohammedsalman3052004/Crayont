@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Logo from "@/assets/images/logo.svg";
-import { useState } from "react";
+// import { useState } from "react";
 
 const navLinks = [
     { label: "Home", href: "#" },
@@ -12,7 +12,7 @@ const navLinks = [
 ];
 
 export default function Navbar() {
-    const [isOpen, setIsOpen] = useState(false);
+    // const [isOpen, setIsOpen] = useState(false);
 
     return (
         <section className="py-4 lg:py-8 sticky top-0 z-50">
