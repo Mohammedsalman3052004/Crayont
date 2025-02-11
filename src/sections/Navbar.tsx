@@ -57,7 +57,7 @@ export default function Navbar() {
                         </svg>
                         {/* <button className="border border-white rounded-full px-6 h-12 font-medium sm:hidden md:block">Log In</button> */}
                         {/* <button className="border border-white rounded-full px-6 h-12 font-semibold sm:hidden md:block bg-lime-400 text-black">Sign Up</button> */}
-                        <button className="border border-white rounded-full px-6 h-12 font-semibold sm:hidden md:block bg-lime-400 text-black">
+                        <button className="border border-white rounded-full px-6 h-12 font-semibold sm:hidden md:block bg-[#5BD6A5] text-white">
                             Contact Us
                         </button>
                     </div>
