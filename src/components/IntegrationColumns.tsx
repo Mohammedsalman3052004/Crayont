@@ -6,12 +6,15 @@ import { twMerge } from "tailwind-merge";
 import {motion} from "framer-motion"
 import { Fragment } from "react";
 
-export default function IntegrationColumns(props: {integrations: IntegrationsType; className?: string;}) {
-    const{integrations, className} = props;
+export default function IntegrationColumns(props: {integrations: IntegrationsType; className?: string; reverse?: boolean;}) {
+    const{integrations, className, reverse} = props;
     return (
         <motion.div 
+        initial={{
+            y: reverse ? '-50%' : 0
+        }}
         animate={{
-            y:"-50%"
+            y:reverse ? 0 : "-50%"
         }}
         transition={{
             duration: 25,
